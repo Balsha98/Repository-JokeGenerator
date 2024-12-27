@@ -1,0 +1,82 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@400;500;600;700&display=swap");
+
+/* VARIABLES */
+:root {
+    --gray-9: #212529;
+    --yellow-0: #fff9db;
+    --yellow-1: #fff3bf;
+    --yellow-3: #ffec99;
+    --shadow-sm: rgba(0, 0, 0, 0.1);
+}
+
+/* GENERAL SELECTORS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--gray-9);
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top, var(--yellow-0), var(--yellow-1));
+    background-repeat: no-repeat;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 500px;
+    height: 300px;
+    background-color: var(--yellow-3);
+    box-shadow: 0 1.2rem 2.4rem var(--shadow-sm);
+    border-radius: 0.8rem;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+/* CATEGORY SPAN */
+.span-category {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    font-size: 2rem;
+}
+
+/* REFRESH ICON */
+.icon-refresh {
+    position: absolute;
+    top: 1.2rem;
+    left: 1.2rem;
+    font-size: 1.6rem;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+/* RESPONSE DIV */
+.div-response {
+    padding: 0 4.8rem;
+    text-align: center;
+}
+
+.div-response p {
+    margin-bottom: 0.4rem;
+    font-size: 1.6rem;
+}
+
+.div-response span {
+    font-size: 1.4rem;
+}
