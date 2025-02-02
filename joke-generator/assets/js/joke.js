@@ -8,7 +8,7 @@ let degrees = 0;
 
 // ***** FUNCTIONS ***** //
 const getRandomJoke = async function () {
-    const response = fetch("https://v2.jokeapi.dev/joke/any").then((response) => response.json());
+    const response = await fetch("https://v2.jokeapi.dev/joke/any");
     return await response.json();
 };
 
