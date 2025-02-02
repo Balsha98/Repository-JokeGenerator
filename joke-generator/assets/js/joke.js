@@ -31,7 +31,10 @@ const renderJoke = async function () {
     responseDiv.innerHTML = response;
     categorySpan.textContent = randomJoke.category;
 
-    if (this) this.style = `transform: rotate(${(degrees += 360)}deg);`;
+    // Guard clause.
+    if (this.nodeName === "ION-ICON") return;
+
+    this.style = `transform: rotate(${(degrees += 360)}deg);`;
 };
 
 // Start off.
