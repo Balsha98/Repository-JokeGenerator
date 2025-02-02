@@ -16,16 +16,15 @@ const renderJoke = async function () {
     const randomJoke = await getRandomJoke();
 
     let response = "";
-    if (randomJoke.type === "twopart") {
+    if (randomJoke.type === "twopart")
         response = `
             <p>${randomJoke.setup}</p>
             <span>${randomJoke.delivery}</span>
         `;
-    } else {
+    else
         response = `
             <p>${randomJoke.joke}</p>
         `;
-    }
 
     // Reset visuals.
     responseDiv.innerHTML = "";
