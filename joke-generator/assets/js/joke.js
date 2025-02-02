@@ -8,10 +8,11 @@ let degrees = 0;
 
 // ***** FUNCTIONS ***** //
 const getRandomJoke = async function () {
-    return await fetch("https://v2.jokeapi.dev/joke/any").then((response) => response.json());
+    const response = fetch("https://v2.jokeapi.dev/joke/any").then((response) => response.json());
+    return await response.json();
 };
 
-const showJoke = async function () {
+const renderJoke = async function () {
     const randomJoke = await getRandomJoke();
 
     let response = "";
@@ -35,7 +36,7 @@ const showJoke = async function () {
 };
 
 // Start off.
-showJoke();
+renderJoke();
 
 // ***** EVENT LISTENERS ***** //
-refreshIcon.addEventListener("click", showJoke);
+refreshIcon.addEventListener("click", renderJoke);
