@@ -15,7 +15,7 @@ const getRandomJoke = async function () {
 const renderJoke = async function () {
     const randomJoke = await getRandomJoke();
 
-    let response = "";
+    let response;
     if (randomJoke.type === "twopart")
         response = `
             <p>${randomJoke.setup}</p>
@@ -32,7 +32,7 @@ const renderJoke = async function () {
     categorySpan.textContent = randomJoke.category;
 
     // Guard clause.
-    if (this.nodeName === "ION-ICON") return;
+    if (!this.nodeName === "ION-ICON") return;
 
     this.style = `transform: rotate(${(degrees += 360)}deg);`;
 };
