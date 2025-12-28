@@ -93,7 +93,7 @@ This project is currently unlicensed. All rights reserved.
 
 - [JokeAPI](https://jokeapi.dev/) for providing the free joke API.
 
-## Connect with Me
+## Let's Connect
 
 If you enjoyed this project or have any questions, feel free to reach out!
 
