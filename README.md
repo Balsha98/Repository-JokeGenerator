@@ -33,7 +33,7 @@ git clone https://github.com/Balsha98/Repository-JokeGenerator.git
 Navigate to the project directory:
 
 ```bash
-cd Repository-JokeGenerator
+cd Repository-JokeGenerator/joke-generator
 ```
 
 Open the project in your browser:
@@ -105,4 +105,4 @@ If you enjoyed this project or have any questions, feel free to reach out!
 
 ---
 
-Made with ❤️ & JavaScript!
+Made with ❤️, HTML5, CSS3, & JavaScript!
