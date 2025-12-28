@@ -1,4 +1,4 @@
-# JokeGenerator - Joke Generator Website
+# JokeGenerator - Joke Generator Web Application
 
 A simple and fun web application that generates random jokes to brighten your day! Built with vanilla JavaScript and powered by the JokeAPI.
 
