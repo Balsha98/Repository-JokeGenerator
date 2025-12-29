@@ -4,11 +4,11 @@ A simple and fun web application that generates random jokes to brighten your da
 
 ## Features
 
-- Random joke generation from multiple categories.
-- Clean and responsive user interface.
-- Instant joke refresh with a single click.
-- No dependencies or frameworks required.
-- Fast and lightweight.
+-   Random joke generation from multiple categories.
+-   Clean and responsive user interface.
+-   Instant joke refresh with a single click.
+-   No dependencies or frameworks required.
+-   Fast and lightweight.
 
 ## Demo
 
@@ -16,11 +16,11 @@ A simple and fun web application that generates random jokes to brighten your da
 
 ## Tech Stack
 
-- **HTML5** - Structure & Content
-- **CSS3** - Styling & Layout
-- **JavaScript** - Logic & API Integration
-- **JokeAPI** - Joke Data Source (https://v2.jokeapi.dev/joke/any)
-- **Netlify** - Hosting & Deployment
+-   **HTML5** - Structure & Content
+-   **CSS3** - Styling & Layout
+-   **JavaScript** - Logic & API Integration
+-   **JokeAPI** - Joke Data Source (https://v2.jokeapi.dev/joke/any)
+-   **Netlify** - Hosting & Deployment
 
 ## Installation
 
@@ -54,9 +54,9 @@ Open the project in your browser:
 
 This project uses the free [JokeAPI v2](https://jokeapi.dev/):
 
-- **Endpoint**: `https://v2.jokeapi.dev/joke/any`
-- **Method**: GET
-- **Response**: A random jokes from various categories.
+-   **Endpoint**: `https://v2.jokeapi.dev/joke/any`
+-   **Method**: GET
+-   **Response**: A random jokes from various categories.
 
 ## Project Structure
 
@@ -70,7 +70,7 @@ Repository-JokeGenerator/
 │   │   ├── css/
 │   │   │   └── style.css       # Styling.
 │   │   │
-│   │   ├── js/
+│   │   ├── javascript/
 │   │   │   └── joke.js         # JavaScript logic.
 │   │   │
 │   │   └── media/
@@ -91,7 +91,7 @@ This project is currently unlicensed. All rights reserved.
 
 ## Acknowledgments
 
-- [JokeAPI](https://jokeapi.dev/) for providing the free joke API.
+-   [JokeAPI](https://jokeapi.dev/) for providing the free joke API.
 
 ## Let's Connect
 
